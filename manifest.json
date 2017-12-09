@@ -1,0 +1,22 @@
+{
+  "name": "StackExchange Shortcut Disabler",
+  "manifest_version": 2,
+  "version": "1.0",
+  "content_scripts": [{
+    "js": ["index.js"],
+    "matches": [
+      "https://stackoverflow.com/*",
+      "https://*.stackoverflow.com/*",
+      "https://superuser.com/*",
+      "https://meta.superuser.com/*",
+      "https://serverfault.com/*",
+      "https://meta.serverfault.com/*",
+      "https://askubuntu.com/*",
+      "https://meta.askubuntu.com/*",
+      "https://*.stackexchange.com/*",
+      "https://mathoverflow.net/*",
+      "https://*.mathoverflow.net/*",
+      "https://stackapps.com/*"
+    ]
+  }]
+}
