@@ -14,3 +14,7 @@ StackExchange sites.
 ## Acknowledgements
 
 Borrowed from: https://meta.stackoverflow.com/a/318986/8985
+
+## License
+
+[MIT License](https://rmm5t.mit-license.org/)
